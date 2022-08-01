@@ -1,0 +1,39 @@
+div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div > h2{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+div label{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.boton{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: steelblue;
+    border-radius: 4px;
+    color: #fff;
+    right: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .4s;
+}
+
+span{
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.boton:hover{
+    transition: .4s;
+    background-color: navy;
+    cursor: pointer;
+}
