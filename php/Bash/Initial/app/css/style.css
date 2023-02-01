@@ -1,0 +1,37 @@
+.txt-text{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: steelblue 1px solid;
+    text-align: center;
+}
+
+.btn-enviar{
+    width: 150px;
+    height: 40px;
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: none;
+}
+
+.btn-enviar:hover{
+    background-color: navy;
+}
+
+.btn-enviar, .btn-enviar:hover{
+    transition: .4s;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+    cursor: pointer;
+}
